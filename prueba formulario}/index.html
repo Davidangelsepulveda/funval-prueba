@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-image: url(./steam.webp);
+                background-attachment: fixed;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            padding: 16px;
+            background-color: white;
+            border-radius: 8px;
+            gap: 8px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="">correo electronico</label>
+        <input type="email" name="correo" id="correo" required>
+        <label for="">confirme su correo</label>
+        <input type="email" name="confirmarCorreo" id="confirmarCorreo" required>
+            <label for="">pais de residencia</label>
+            <input type="password" name="contraseña" id="contraseña" required>
+            <div><label for="">soy humano</label>
+           <input type="checkbox" name="soyHumano" id="soyHumano" required></div>
+        <button>continuar</button>
+    </form>
+</body>
+</html>
